@@ -1,4 +1,0 @@
-pandas
-numpy
-stream lit
-scikit-learn
