@@ -44,9 +44,9 @@ if st.button("Predict Calories Burned"):
     st.subheader("Prediction of Calories Burned")
     st.write(f"{prediction[0]:.2f} calories")
     st.write(random.choice(funny_quotes))
-if prediction[0] < 100:
-    st.write("That's it? You can do better! 💤")
-elif 100 <= prediction[0] < 300:
-    st.write("Not bad! Keep it up! 👍")
-else:
-    st.write("Wow! You're on fire! 🔥")
+    if prediction[0] < 100:
+        st.write("That's it? You can do better! 💤")
+    elif 100 <= prediction[0] < 300:
+        st.write("Not bad! Keep it up! 👍")
+    else:
+        st.write("Wow! You're on fire! 🔥")
