@@ -8,7 +8,7 @@ st.title("My ML Model Web App")
 st.write("Provide the input features to get a prediction.")
 
 def user_input_features():
-    gender=st.sidebar.selection("Gender",("Male","Female"))
+    gender=st.sidebar.selectbox("Gender",("Male","Female"))
     age=st.sidebar.slider("Age",1,100,25)
     height=st.sidebar.slider("Height(cm)",50,250,170)
     weight=st.sidebar.slider("Weight(kg)",10,200,70)
@@ -26,6 +26,7 @@ def user_input_features():
             'Body_Temp': body_temp,
             'BMI': bmi
     }
+    return pd.DataFrame(data,index=[0])
 input_df = user_input_features()
 st.subheader("User Input Features")
 st.write(input_df)
