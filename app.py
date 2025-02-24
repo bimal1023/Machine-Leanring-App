@@ -1,8 +1,9 @@
 import streamlit as st
-import pickle
+
 import numpy as np
 
-
+with open('model.pkl', 'rb') as file:
+    loaded_model = pickle.load(file)
 st.title("My ML Model Web App")
 st.write("Provide the input features to get a prediction.")
 
