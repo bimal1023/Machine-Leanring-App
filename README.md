@@ -18,8 +18,8 @@ This is a Streamlit web application that predicts the number of calories burned 
 - Numpy
 - Scikit-learn
 
-## Liscence
-This project is licensed under the MIT Licence. See the LISENCE file for details.
+## License
+This project is licensed under the MIT Licence.
 
 # Acknowledgments
 - The pre-trained model used in this was was created using Scikit-learn.
@@ -29,8 +29,8 @@ This project is licensed under the MIT Licence. See the LISENCE file for details
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/calories-burned-prediction-app.git
-   cd calories-burned-prediction-app
+   git clone https://github.com/bimal1023/Machine-Leanring-App
+   cd Machine-Learning-App
 2. **Install Dependencies**:
    Make sure you have Python installed. Then,
    install the required packages using pip:
