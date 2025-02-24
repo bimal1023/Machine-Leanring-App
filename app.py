@@ -33,8 +33,7 @@ st.write(input_df)
 prediction = model.predict(input_df)
 st.subheader("Prediction of Calories Burned")
 st.write(f"{prediction[0]:.2f} calories")
-st.subheader("Model Performance")
-st.write(f"Mean Absolute Error: {mae:.2f} calories")
+
 
 if __name__ == "__main__":
     main()
