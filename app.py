@@ -10,7 +10,7 @@ st.write("Provide the input features to get a prediction.")
 def user_input_features():
     gender=st.sidebar.selectbox("Gender",("Male","Female"))
     age=st.sidebar.slider("Age",1,100,25)
-    height=st.sidebar.slider("Height(cm)",50,250,170)
+    height = st.sidebar.slider("Height (meters)", 0.5, 2.5, 1.7)
     weight=st.sidebar.slider("Weight(kg)",10,200,70)
     duration = st.sidebar.slider("Duration of Exercise (minutes)", 1, 300, 30)
     heart_rate = st.sidebar.slider("Heart Rate (bpm)", 50, 200, 120)
