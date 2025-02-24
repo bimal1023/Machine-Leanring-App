@@ -5,7 +5,7 @@ import numpy as np
 import random
 with open("model.pkl", "rb") as file:
     model = pickle.load(file)
-st.title("🔥 Calories Burned Prediction App 🏃‍♂️")
+st.title("🔥 Calories Burned Prediction App")
 st.write("Provide the input features to get a prediction.")
 
 funny_quotes = [
