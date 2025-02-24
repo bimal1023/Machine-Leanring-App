@@ -2,7 +2,6 @@ import streamlit as st
 
 import numpy as np
 
-)
 st.title("My ML Model Web App")
 st.write("Provide the input features to get a prediction.")
 
