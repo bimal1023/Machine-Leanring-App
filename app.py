@@ -33,6 +33,6 @@ st.write(input_df)
 if st.button("Predict Calories Burned"):
     prediction = model.predict(input_df)
     
-st.subheader("Prediction of Calories Burned")
-st.write(f"{prediction[0]:.2f} calories")
+    st.subheader("Prediction of Calories Burned")
+    st.write(f"{prediction[0]:.2f} calories")
 
