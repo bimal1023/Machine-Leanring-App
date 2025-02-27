@@ -37,3 +37,4 @@ This project is licensed under the MIT Licence.
   pip install streamlit pandas numpy scikit-learn
 3. **Run the App**
    streamlit run app.py
+   
